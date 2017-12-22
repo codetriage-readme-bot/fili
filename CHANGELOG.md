@@ -10,6 +10,9 @@ Current
 
 ### Added:
 
+- [Annotate Functional Interface](https://github.com/yahoo/fili/pull/606)
+    * Add `@FunctionalInterface` annotation to all functional interfaces.
+
 - [Implement TimeFormatExtractionFunction](https://github.com/yahoo/fili/pull/611)
     * Enable [`TimeFormatExtractionFunction`](http://druid.io/docs/0.10.1/querying/dimensionspecs.html#time-format-extraction-function)
       in Fili so that API users could interact with Druid using `TimeFormatExtractionFunction` through Fili.
